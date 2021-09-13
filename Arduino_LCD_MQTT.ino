@@ -25,8 +25,8 @@ LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 
 #include "arduino_secrets.h"
 ///////please enter your sensitive data in the Secret tab/arduino_secrets.h
-char ssid[] = "COMHEM_622cef";        // your network SSID (name)
-char pass[] = "udmzumy3";    // your network password (use for WPA, or use as key for WEP)
+char ssid[] = "";        // your network SSID (name)
+char pass[] = "";    // your network password (use for WPA, or use as key for WEP)
 
 // To connect with SSL/TLS:
 // 1) Change WiFiClient to WiFiSSLClient.
